@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/clear_sky_day"
+    tools:context=".FavouriteActivity">
+
+    <TextView
+        android:id="@+id/favLocationsLabel3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/acme"
+        android:text="@string/favourite_locations"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/navButton3"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/more_icon"
+        android:contentDescription="@string/navigation_button"
+        android:onClick="showPopup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:id="@+id/favouriteTableLayout"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:background="#81252422"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/favLocationText1"
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:autoSizeMaxTextSize="24sp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="@font/acme"
+                android:gravity="center_vertical"
+                android:paddingStart="15dp"
+                android:paddingEnd="0dp"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/favLocationIcon1"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:contentDescription="@string/weather_icon_1"
+                tools:ignore="ImageContrastCheck" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/favMinTemp1"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="#C1E8FF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/favMaxTemp1"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="#FFAAAF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/deleteButton1"
+                android:layout_width="50dp"
+                android:layout_height="64dp"
+                android:background="#81252422"
+                android:fontFamily="@font/acme"
+                android:text="@string/x"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:visibility="invisible" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/favLocationText2"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:autoSizeMaxTextSize="24sp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="@font/acme"
+                android:gravity="center_vertical"
+                android:paddingStart="15dp"
+                android:paddingEnd="0dp"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/favLocationIcon2"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:contentDescription="@string/weather_icon_2"
+                tools:ignore="ImageContrastCheck" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/favMinTemp2"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="#C1E8FF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/favMaxTemp2"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="#FFAAAF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/deleteButton2"
+                android:layout_width="50dp"
+                android:layout_height="64dp"
+                android:background="#81252422"
+                android:fontFamily="@font/acme"
+                android:text="@string/x"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:visibility="invisible" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/favLocationText3"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:autoSizeMaxTextSize="24sp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="@font/acme"
+                android:gravity="center_vertical"
+                android:paddingStart="15dp"
+                android:paddingEnd="0dp"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/favLocationIcon3"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:contentDescription="@string/weather_icon_3"
+                tools:ignore="ImageContrastCheck" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/favMinTemp3"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="#C1E8FF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/favMaxTemp3"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="#FFAAAF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/deleteButton3"
+                android:layout_width="50dp"
+                android:layout_height="64dp"
+                android:background="#81252422"
+                android:fontFamily="@font/acme"
+                android:text="@string/x"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:visibility="invisible" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/favLocationText4"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:autoSizeMaxTextSize="24sp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="@font/acme"
+                android:gravity="center_vertical"
+                android:paddingStart="15dp"
+                android:paddingEnd="0dp"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/favLocationIcon4"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:contentDescription="@string/weather_icon_4"
+                tools:ignore="ImageContrastCheck" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/favMinTemp4"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="#C1E8FF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/favMaxTemp4"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="#FFAAAF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/deleteButton4"
+                android:layout_width="50dp"
+                android:layout_height="64dp"
+                android:background="#81252422"
+                android:fontFamily="@font/acme"
+                android:text="@string/x"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:visibility="invisible" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/favLocationText5"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:autoSizeMaxTextSize="24sp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="@font/acme"
+                android:gravity="center_vertical"
+                android:paddingStart="15dp"
+                android:paddingEnd="0dp"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/favLocationIcon5"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:contentDescription="@string/weather_icon_5"
+                tools:ignore="ImageContrastCheck" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/favMinTemp5"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="#C1E8FF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/favMaxTemp5"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="#FFAAAF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/deleteButton5"
+                android:layout_width="50dp"
+                android:layout_height="64dp"
+                android:background="#81252422"
+                android:fontFamily="@font/acme"
+                android:text="@string/x"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:visibility="invisible" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/addFavButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:background="#81252422"
+        android:fontFamily="@font/acme"
+        android:onClick="onAddFavButtonClick"
+        android:text="@string/plus"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/favLocationsLabel3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

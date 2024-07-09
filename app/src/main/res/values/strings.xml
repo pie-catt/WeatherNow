@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">WeatherNow</string>
+    <string name="no_data">- - -</string>
+    <string name="no_data_temp">--°</string>
+    <string name="weather_api_key">YOUR_API_KEY</string>
+    <string name="last_update">Last Update:</string>
+    <string name="no_location">...</string>
+    <string name="navigation_button">Navigation</string>
+    <string name="icon_for_day_1_weather_forecast">Icon for day 1 weather forecast</string>
+    <string name="icon_for_day_2_weather_forecast">Icon for day 2 weather forecast</string>
+    <string name="icon_for_day_3_weather_forecast">Icon for day 3 weather forecast</string>
+    <string name="icon_for_day_4_weather_forecast">Icon for day 4 weather forecast</string>
+    <string name="icon_for_day_5_weather_forecast">Icon for day 5 weather forecast</string>
+    <string name="clickable_icon_to_refresh_current_location">Clickable icon to refresh current location</string>
+    <string name="icon_for_current_weather">Icon for current weather</string>
+    <string name="enter_city_name">Enter city name</string>
+    <string name="fav_button_desc">Add a location to fav list</string>
+    <string name="favourite_locations">Favourite Locations</string>
+    <string name="x">X</string>
+    <string name="city">City</string>
+    <string name="_0_c">0°C</string>
+    <string name="weather_icon">Weather Icon</string>
+    <string name="current_location">Current Location</string>
+    <string name="search_location">Search Location</string>
+    <string name="favourites_list">Favourites List</string>
+    <string name="plus">+</string>
+    <string name="weather_icon_1">Weather Icon 1</string>
+    <string name="weather_icon_2">Weather Icon 2</string>
+    <string name="weather_icon_3">Weather Icon 3</string>
+    <string name="weather_icon_4">Weather Icon 4</string>
+    <string name="weather_icon_5">Weather Icon 5</string>
+</resources>
