@@ -10,13 +10,13 @@ WeatherNow is an Android application based on <a href="https://www.weatherapi.co
 - Home screen widget
 
 ### Screenshots
-<img src="https://github.com/pie-catt/WeatherNow/assets/33451203/8e18f8e0-c7f0-4de7-a8eb-e69e3dee6783" alt="Main Screen" width="200"/>
+<img src="https://github.com/pie-catt/WeatherNow/assets/33451203/8e18f8e0-c7f0-4de7-a8eb-e69e3dee6783" alt="Main Screen" width="180"/>
 &ensp;
-<img src="https://github.com/pie-catt/WeatherNow/assets/33451203/ae076575-25c4-4a01-868a-e3825550dbfd" alt="Main Screen2" width="200"/>
+<img src="https://github.com/pie-catt/WeatherNow/assets/33451203/ae076575-25c4-4a01-868a-e3825550dbfd" alt="Main Screen2" width="180"/>
 &ensp;
-<img src="https://github.com/pie-catt/WeatherNow/assets/33451203/c59bb516-6d58-4cd8-b785-469656b11eed" alt="Main Screen3" width="200"/>
+<img src="https://github.com/pie-catt/WeatherNow/assets/33451203/c59bb516-6d58-4cd8-b785-469656b11eed" alt="Main Screen3" width="180"/>
 &ensp;
-<img src="https://github.com/pie-catt/WeatherNow/assets/33451203/220849cd-9d98-4663-a0f1-07f415d343ed" alt="Main Screen4" width="200"/>
+<img src="https://github.com/pie-catt/WeatherNow/assets/33451203/220849cd-9d98-4663-a0f1-07f415d343ed" alt="Main Screen4" width="180"/>
 
 ## Installation
 
