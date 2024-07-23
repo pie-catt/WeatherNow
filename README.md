@@ -32,7 +32,7 @@ git clone https://github.com/pie-catt/weathernow.git
 ```xml
 <string name="weather_api_key">YOUR_API_KEY_HERE</string>
 ```
-6. Build and run the app on your emulator or Android device.
+5. Build and run the app on your emulator or Android device.
 
 ## Usage
 
