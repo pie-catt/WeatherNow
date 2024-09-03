@@ -44,5 +44,13 @@ To simulate the changing of the current location using the Android emulator, fol
 3. Set a different location in the emulator's location settings.
    
 4. In the app, tap the location icon to refresh the location and fetch the updated weather data for the new location.
+
+## Contributing
+
+Contributions are welcome! Please fork this repository, create a new branch, and submit a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
    
    
